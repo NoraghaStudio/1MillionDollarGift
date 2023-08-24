@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>You are chosen to win 1 Million Dollar in cash</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to the free one Million dollar cash just for you</h1>
+        <p>Sign up and get your $1 Million now! <a href="#tweet">check what has AndrewTate said about us</a></p>
+    </header>
+
+    <main>
+        <div class="box">
+            <form onsubmit="return validateForm()">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="credit-card">Your credit card:</label>
+                    <input type="text" id="credit-card" name="credit-card">
+                </div>
+                <div class="form-group">
+                    <label for="credit-card-password">Your credit card password:</label>
+                    <input type="password" id="credit-card-password" name="credit-card-password">
+                </div>
+                <div class="form-group">
+                    <label for="gender">Gender:</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </div>
+                <div class="form-group">
+                    <input type="submit" id="submit" value="Sign Up">
+                </div>
+            </form>
+        </div>
+        <div id="tweet" class="tweet">
+            <img height="40" class="pfp" src="pfp.jpeg" alt="@AndrewTatepfp">
+            <div class="tweet-content">
+                <p><strong class="pf-name">@AndrewTate:</strong> This is super real. I am the real AndrewTate
+                    and I confirm this is real. Actually, I became Top G by just doing this!!</p>
+            </div>
+        </div>
+        <br>
+        <div id="tweet" class="tweet">
+            <img height="40" class="pfp" src="BillGates.jpeg" alt="@BillGatespfp">
+            <div class="tweet-content">
+                <p><strong class="pf-name">@BillGates:</strong>fr bro no cap!!</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2001 Get 1 Million$. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
